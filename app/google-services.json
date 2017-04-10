@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "341344767589",
+    "firebase_url": "https://takehomeassignment09-elysew.firebaseio.com",
+    "project_id": "takehomeassignment09-elysew",
+    "storage_bucket": "takehomeassignment09-elysew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341344767589:android:1421934c7ef456de",
+        "android_client_info": {
+          "package_name": "com.elysewarren.takehomeassignment09_elysew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341344767589-8qnppa65tmd4ramlu49n68gjm57gfot9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXKVnpYs35AW-fVldNCcu3TYHEDxkmZfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
