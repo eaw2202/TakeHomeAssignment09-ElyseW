@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -43,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
+                Toast.makeText(MainActivity.this, dataSnapshot.getValue(Student.class) + "has changed", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
+                Toast.makeText(MainActivity.this, dataSnapshot.getValue(Student.class) + " is removed", Toast.LENGTH_SHORT).show();
             }
 
             @Override
